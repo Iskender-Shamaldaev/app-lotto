@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Lotto = () => {
+interface IPersonProps {
+    number: number;
+}
+
+const Lotto: React.FC<IPersonProps> = props => {
     return (
-        <div>
-            
+        <div className="lotto">
+            <h1>{props.number}</h1>
         </div>
     );
 };

@@ -31,6 +31,10 @@ const App = () => {
             <Lotto number={circle[2]}/>
             <Lotto number={circle[3]}/>
             <Lotto number={circle[4]}/>
+
+            <div>
+                <img className="pic" alt="pic" src="https://img.freepik.com/premium-photo/russian-lotto-on-a-yellow-background-with-space-for-text-board-games-in-summer_261761-2831.jpg?w=1380" />
+            </div>
         </div>
     );
 };
